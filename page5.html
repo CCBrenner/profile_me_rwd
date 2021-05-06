@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Me: Collyn Brenner</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+	<script src="script.js" defer></script>
+</head>
+<body>
+
+	<header>
+		<h1>Profile Me: <em><a href="index.html">Collyn Brenner</a></em></h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Identity</a></li>
+			<li><a href="page1.html">Education</a></li>
+			<li><a href="page2.html">Family</a></li>
+			<li><a href="page3.html">Successes</a></li>
+			<li><a href="page4.html">Influencers</a></li>
+			<li><a href="page5.html">Ambitions</a></li>
+		</ul>
+	</nav>
+
+	<h2 class="content-header">Ambitions</h2>
+
+	<div class="row">
+		<article class="col-d-3">
+			<div class="central-three img-container">
+				<h3>Photo Gallery</h3>
+				<img src="ambitions_4.png">
+				<img src="ambitions_1.png">
+				<img src="ambitions_2.png">
+				<img src="ambitions_5.png">
+				<img src="ambitions_3.png">
+			</div>
+		</article>
+		<section class="col-d-6">
+			<div class="central-three">
+				<p>
+					I have a few ambitions. I really would like to continue living happily with my wife and one day have a family of our own. I'd 
+					love to be the family that other couples and families come to and spend time with due to how welcoming we are and how much we have 
+					to offer them in regards to wisdom and experience.
+				</p>
+				<br>
+				<p>
+					I really like to create things and it would be amazing to become a Python developer as well as a front-end devloper of any sort. 
+					I'd love to innovate the internet space as far as designing is concerned. Not everyhting is about functionality.
+				</p>
+				<br>
+				<p>
+					I'd also really like to learn React. This method of doing design seems like a really fun way to innovate.
+				</p>
+			</div>
+		</section>
+		<aside class="col-d-3">
+			<div class="central-three" id="today">
+			</div>
+		</aside>
+	</div>
+
+	<form action="#" method="post">
+		<div class="form">
+			<h3>What's Your True Ambition?</h3>
+			<!--
+				<label for="titleBox">Title</label>
+				<input type="text" list="titleList" name="titleBox" id="titleBox">
+				<datalist id="titleList">
+					<option value="Mr.">
+					<option value="Mrs.">
+					<option value="Ms.">
+					<option value="Dr.">
+				</datalist>
+			-->
+			<label for="ambBox">Ambition*</label>
+			<input type="text" name="ambBox" id="ambBox" required>
+			<label for="ambDescBox">Ambition Description*</label>
+			<textarea type="text" name="ambDescBox" id="ambDescBox" placeholder="Describe your ambition for added detail" required></textarea>
+			<label for="fnBox">First Name*</label>
+			<input type="text" name="fnBox" id="fnBox" required>
+			<label for="lnBox">Last Name*</label>
+			<input type="text" name="lnBox" id="lnBox" required>
+			<label for="email">E-mail</label>
+			<input type="email" name="email" id="email">
+			<label for="phoneBox">Phone Numer*</label>
+			<input type="tel" name="phoneBox" id="phoneBox" placeholder=" (nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required>
+			<p><button type="submit">Submit True Ambition</button></p>
+		</div>
+	</form>
+
+	<footer>
+		<p>Created by Collyn Brenner for Mobile UX/UI Front End Engineering (CIT-3650-O006)</p>
+	</footer>
+
+</body>
+</html>
